@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { IBook } from './book.component';
 
 @Component({
   selector: 'app-book',
@@ -7,11 +8,12 @@ import { Component } from '@angular/core';
   styleUrl: './book.css',
 })
 export class Book {
-  book = {
+  book: IBook = {
     title: 'As ondas',
     author: 'Virginia Woolf',
     image: 'https://m.media-amazon.com/images/I/81D2d6LqZdS._UF1000,1000_QL80_.jpg',
     favorite: false,
+    genre: "Ficção"
   };
 
   alterarFavorito() {
