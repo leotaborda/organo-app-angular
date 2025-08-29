@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
 })
 export class Book {
   book = {
-    titulo: 'As ondas',
-    autoria: 'Virginia Woolf',
+    title: 'As ondas',
+    author: 'Virginia Woolf',
     image: 'https://m.media-amazon.com/images/I/81D2d6LqZdS._UF1000,1000_QL80_.jpg',
     favorite: false,
   };
