@@ -4,10 +4,11 @@ import { Header } from './components/header/header';
 import { Footer } from './components/footer/footer';
 //import { Book } from "./components/book/book";
 import { BooksList } from "./components/books-list/books-list";
+import { Genre } from "./components/genre/genre";
 
 @Component({
   selector: 'app-root',
-  imports: [Header, Footer, BooksList],
+  imports: [Header, Footer, BooksList, Genre],
   templateUrl: './app.html',
   styleUrl: './app.css',
 })
