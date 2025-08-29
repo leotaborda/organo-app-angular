@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
 import { IBook } from './book.component';
 
 @Component({
@@ -8,15 +8,9 @@ import { IBook } from './book.component';
   styleUrl: './book.css',
 })
 export class Book {
-  book: IBook = {
-    title: 'As ondas',
-    author: 'Virginia Woolf',
-    image: 'https://m.media-amazon.com/images/I/81D2d6LqZdS._UF1000,1000_QL80_.jpg',
-    favorite: false,
-    genre: "Ficção"
-  };
+  book = input.required<IBook>();
 
   alterarFavorito() {
-    this.book.favorite = !this.book.favorite
+    this.book().favorite = !this.book().favorite;
   }
 }
