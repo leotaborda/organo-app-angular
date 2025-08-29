@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { IGenre } from '../book/book.component';
 
 @Component({
   selector: 'app-books-list',
@@ -7,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './books-list.css'
 })
 export class BooksList {
-
+  genre: IGenre[] = []
+  
 }
