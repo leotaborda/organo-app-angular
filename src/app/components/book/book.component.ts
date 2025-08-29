@@ -3,5 +3,11 @@ export interface IBook {
   author: string,
   image: string,
   favorite: boolean,
-  genre: string
+  genre: IGenre
+}
+
+export interface IGenre {
+  id: string,
+  value: string,
+  books: IBook[]
 }
