@@ -1,8 +1,6 @@
-# Organo - Organizando seus projetos com Angular 19
-
 ![Logo do Organo](/public/logo.svg)
 
-## Descrição
+# Descrição
 
 O **Organo** é uma aplicação web desenvolvida durante o curso "Angular 19: Estruture componentes com signals e controle de fluxo" da Alura. Ele foi projetado para ser uma ferramenta intuitiva e eficiente na organização de projetos, permitindo que você adicione, visualize e gerencie seus projetos de forma simples e agradável.
 
