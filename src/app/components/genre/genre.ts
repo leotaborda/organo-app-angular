@@ -1,14 +1,14 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
 import { Book } from '../book/book';
-import { Books } from '../../mock-books';
+import { books } from '../../mock-books';
+import { IGenre } from '../book/book.component';
 
 @Component({
   selector: 'app-genre',
   imports: [Book],
   templateUrl: './genre.html',
-  styleUrl: './genre.css'
+  styleUrl: './genre.css',
 })
 export class Genre {
-  book = Books[0]
-
+  genre = input.required<IGenre>();
 }
