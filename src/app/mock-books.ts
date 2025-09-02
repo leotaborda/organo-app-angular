@@ -1,6 +1,6 @@
 import { IBook } from './components/book/book.component';
 
-export const Books: IBook[] = [
+export const books: IBook[] = [
   {
     title: 'As ondas',
     author: 'Virginia Woolf',
